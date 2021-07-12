@@ -7,9 +7,9 @@ import SubNavBar from '../SubNavbar/SubNavbar';
 const SubBody = () => {
     return ( 
         <BrowserRouter>
-        <Container className="sub-body">
-            <SubNavBar />
-            <Form/>
+            <Container className="sub-body">
+                <SubNavBar />
+                <Form/>
             </Container>
         </BrowserRouter>
      );

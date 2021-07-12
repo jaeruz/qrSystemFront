@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import { Container, Nav, Navbar,Button } from 'react-bootstrap'
 import {NavLink} from 'react-router-dom'
 
 const SubNavBar = () => {
@@ -12,6 +12,7 @@ const SubNavBar = () => {
                     <Nav.Link as={NavLink} to="/visit" className="nav-link">Visitor</Nav.Link>
                     <Nav.Link as={NavLink} to="/docs" className="nav-link">Documents</Nav.Link>
                     <Nav.Link as={NavLink} to="/logs" className="nav-link">Logs</Nav.Link>
+                    
                 </Nav>
             </Container>
         </Navbar>
